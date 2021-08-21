@@ -196,7 +196,7 @@ canvas.addEventListener("touchmove", (e) => {
 })
 
 //松开
-canvas.addEventListener("touchendend", () => {
+canvas.addEventListener("touchend", () => {
     painting = false;
     erasering = false;
 })
